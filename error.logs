@@ -1,0 +1,10 @@
+[I 20180505 09:15:52 basehttp:124] "GET / HTTP/1.1" 200 1714
+[I 20180505 09:15:52 basehttp:124] "GET / HTTP/1.1" 200 1714
+[W 20180505 09:15:52 base:152] Not Found: /favicon.ico
+[W 20180505 09:15:52 basehttp:124] "GET /favicon.ico HTTP/1.1" 404 1962
+[I 20180505 09:15:52 basehttp:124] "GET / HTTP/1.1" 200 1714
+[W 20180505 09:15:52 base:152] Not Found: /favicon.ico
+[W 20180505 09:15:52 basehttp:124] "GET /favicon.ico HTTP/1.1" 404 1962
+[I 20180505 09:15:52 basehttp:124] "GET / HTTP/1.1" 200 1714
+[I 20180505 11:10:16 basehttp:124] "GET / HTTP/1.1" 200 1714
+[I 20180505 11:10:17 basehttp:124] "GET / HTTP/1.1" 200 1714

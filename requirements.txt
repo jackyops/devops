@@ -1,3 +1,7 @@
 Django==1.11.6
 pymysql
 PyYAML=3.12
+nmap
+paramiko 
+python-nmap
+pysnmp
