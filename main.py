@@ -13,8 +13,8 @@ import django
 import time
 django.setup()
 
-from .scanner.util.nmap_all_server import snmp_begin
-from  .scanner.util.nmap_all_server import NmapNet
+from scanner.util.nmap_all_server import snmp_begin
+from scanner.util.nmap_all_server import NmapNet
 
 
 
@@ -64,8 +64,8 @@ def main():
     '''
     扫描主机信息
     '''
-    # for nmap_type in s_nets:
-    #     unkown_list,key_not_login_list = snmp_begin(nmap_type,s_ports,s_pass,s_keys,s_cmds,s_blacks,s_emails)
+    for nmap_type in s_nets:
+        unkown_list,key_not_login_list = snmp_begin(nmap_type,s_ports,s_pass,s_keys,s_cmds,s_blacks,s_emails)
 
 
 

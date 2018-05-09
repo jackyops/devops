@@ -3,9 +3,9 @@
 #####
 hostsinfo :
 # 主机段，EXP:['192.168.6'] or ['192.168.1',192.168.2]
-            nets : ['192.168.1']
+            nets : ['192.168.131']
 # 端口段
-            ports : "22,222,2222,22222,2222"
+            ports : "22"
 # SSH key文件列表
             ssh_key_file : ['/opt/key/first_rsa','/opt/key/senncond_rsa','/opt/key/third_rsa']
 # 执行命令获取系统相关信息
@@ -20,11 +20,11 @@ hostsinfo :
 #####
 # SSH登录密码列表
 #####
-            ssh_pass : ['123456','passwd2','passwd3']
+            ssh_pass : ['123']
 # 黑名单查询
             black_list : []
 # Email收件人列表
-            email_list : ["jeson@imoocc.com"]
+            email_list : ["jackyops@163.com"]
 
 #Docker容器相关配置信息
 dockerinfo :
